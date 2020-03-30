@@ -20,7 +20,7 @@ def run_benchmarks(tf_path, filepaths, output_dir):
 
         # get the part without extension
         model_name = model_filename.rsplit('.', maxsplit=1)[0]
-        output_file = os.path.join(output_dir, model_name + '_benchmark.txt')
+        output_file = os.path.join(output_dir, model_name)
         output_files.append(output_file)
 
         # create the shell arguments for execution
