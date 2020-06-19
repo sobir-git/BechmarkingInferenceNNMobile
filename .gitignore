@@ -1,0 +1,7 @@
+/.idea/
+__pycache__
+/tflite_models/
+/results/
+/csv/
+.ipynb_checkpoints/
+/.vscode/
